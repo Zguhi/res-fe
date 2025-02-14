@@ -1,0 +1,81 @@
+/* ============================= */
+/* 🌟 Global Styles for Restaurant */
+/* ============================= */
+
+/* 🔹 Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* 🔹 Body styles */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 🔹 Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* 🔹 Header */
+h1, h2, h3 {
+    color: #d32f2f;
+}
+
+/* 🔹 Buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #d32f2f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #b71c1c;
+}
+
+/* 🔹 Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d32f2f;
+    padding: 15px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* 🔹 Footer */
+.footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
